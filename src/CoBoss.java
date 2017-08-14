@@ -1,7 +1,7 @@
 /**
  * Created by Lenovo on 14.08.2017.
  */
-public class CoBoss extends Boss {
+public class CoBoss extends Boss  {
 
     private boolean isHappy;
 

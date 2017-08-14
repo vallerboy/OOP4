@@ -1,7 +1,7 @@
 /**
  * Created by Lenovo on 14.08.2017.
  */
-public class Employee {
+public abstract class Employee {
     private String name;
     private int salary;
 
@@ -26,7 +26,5 @@ public class Employee {
         this.salary = salary;
     }
 
-    protected void makeVoice() {
-        System.out.println("Jestem szarym pracownikiem");
-    }
+    protected abstract void makeVoice();
 }

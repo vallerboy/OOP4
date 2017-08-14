@@ -41,8 +41,7 @@ public class Main {
             System.out.print("Wpisz surname: ");
             surname = scanner.nextLine();
 
-            userList.add(new User(username, password, surname, name));
-        }
+            userList.add(new User(username, password, surname, name));        }
 
         System.out.println("Lista userów: ");
         getAllUser();
