@@ -22,6 +22,61 @@ public class Monster {
         isDistanceAttacker = builder.isDistanceAttacker;
     }
 
+    public int getAttack() {
+        return attack;
+    }
+
+    public void setAttack(int attack) {
+        this.attack = attack;
+    }
+
+    public int getDef() {
+        return def;
+    }
+
+    public void setDef(int def) {
+        this.def = def;
+    }
+
+    public int getHp() {
+        return hp;
+    }
+
+    public void setHp(int hp) {
+        this.hp = hp;
+    }
+
+    public int getMana() {
+        return mana;
+    }
+
+    public void setMana(int mana) {
+        this.mana = mana;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getRank() {
+        return rank;
+    }
+
+    public void setRank(int rank) {
+        this.rank = rank;
+    }
+
+    public boolean isDistanceAttacker() {
+        return isDistanceAttacker;
+    }
+
+    public void setDistanceAttacker(boolean distanceAttacker) {
+        isDistanceAttacker = distanceAttacker;
+    }
 
     public static class Builder {
         private int attack;
